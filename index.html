@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+    <title>Gourav Kumar - Facebook Ads, Websites, WhatsApp Automation & CRM ✨</title>
+
+    <!-- SEO & Social Meta -->
+    <meta name="description" content="Scale your business with high-ROI Facebook Ads, custom Website Design, Landing Pages, official WhatsApp API, 24/7 WhatsApp Automation, and CRM systems.">
+    <meta property="og:title" content="Gourav Kumar - Growth Marketing & Tech Automation Specialist">
+    <meta property="og:description" content="Scale your business with Facebook Ads, high-converting Websites, WhatsApp Automation & CRM. Book your Free Consultation now.">
+    <meta property="og:image" content="images/gourav-kumar.webp">
+    <meta name="theme-color" content="#FF5E8E">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- Meta Pixel Tracking -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1072479109034016');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1072479109034016&ev=PageView&noscript=1"
+    /></noscript>
+
+    <style>
+        :root {
+            --primary-coral: #FF5E8E;
+            --lavender: #6A67CE;
+            --midnight: #1A1A2E;
+            --cream: #FFF9F9;
+            --white: #FFFFFF;
+            --text-dark: #1A1A2E;
+            --success: #00C9B7;
+            --shadow: 0 8px 24px rgba(106, 103, 206, 0.12);
+            --shadow-hover: 0 16px 36px rgba(106, 103, 206, 0.22);
+            --glow: 0 0 25px rgba(255, 94, 142, 0.4);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--cream);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+            width: 100%;
+            position: relative;
+            padding-bottom: 70px;
+        }
+
+        /* Keyframe Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes floatSlow {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-8px) rotate(0.4deg); }
+        }
+        @keyframes badgePulse {
+            0%, 100% { box-shadow: 0 6px 18px rgba(255, 94, 142, 0.35); transform: translateY(0); }
+            50% { box-shadow: 0 10px 28px rgba(106, 103, 206, 0.55); transform: translateY(-2px) scale(1.02); }
+        }
+        @keyframes buttonPulse {
+            0%, 100% { box-shadow: 0 6px 20px rgba(0,201,183,0.3); }
+            50% { box-shadow: 0 12px 30px rgba(0,201,183,0.65), 0 0 16px rgba(0,201,183,0.4); }
+        }
+        @keyframes shimmerEffect {
+            0% { transform: translateX(-150%) skewX(-20deg); }
+            100% { transform: translateX(250%) skewX(-20deg); }
+        }
+        @keyframes glowCounter {
+            0%, 100% { text-shadow: 0 0 0px rgba(255, 94, 142, 0); transform: scale(1); }
+            50% { text-shadow: 0 0 18px rgba(255, 94, 142, 0.55); transform: scale(1.03); }
+        }
+        @keyframes floatBgOrb1 {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(20px, -15px) scale(1.08); }
+        }
+        @keyframes floatBgOrb2 {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(-15px, 20px) scale(1.1); }
+        }
+        @keyframes consultationPulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.018); }
+        }
+
+        /* Scroll Reveal Effect */
+        .reveal-item {
+            opacity: 0;
+            transform: translateY(28px);
+            transition: all 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal-item.revealed {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .animate-fade-in { animation: fadeInUp .7s ease-out forwards; opacity: 0; }
+        .animate-stagger { animation: fadeInUp .7s ease-out forwards; animation-delay: calc(var(--order) * .12s); opacity: 0; }
+
+        section {
+            padding: 55px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Fluid Typography */
+        h1.display-3 {
+            font-size: clamp(1.85rem, 5.8vw, 3.2rem) !important;
+            font-weight: 800;
+            line-height: 1.25;
+            letter-spacing: -0.5px;
+        }
+        h2.display-5 {
+            font-size: clamp(1.5rem, 4.8vw, 2.4rem) !important;
+            font-weight: 800;
+            line-height: 1.28;
+            letter-spacing: -0.3px;
+        }
+        .hero-text-compact {
+            max-width: 640px;
+            margin: 0 auto 1.6rem;
+            font-size: clamp(1.02rem, 2.7vw, 1.2rem);
+            line-height: 1.5;
+            color: #4A4A68 !important;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, #FFFFFF 0%, #FFF5F7 50%, #F5F3FF 100%);
+            padding: 85px 0 60px;
+            overflow: hidden;
+            position: relative;
+        }
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            width: 380px;
+            height: 380px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255,94,142,0.14) 0%, transparent 70%);
+            top: -120px;
+            left: -90px;
+            animation: floatBgOrb1 8s ease-in-out infinite;
+            pointer-events: none;
+        }
+        .hero-section::after {
+            content: '';
+            position: absolute;
+            width: 420px;
+            height: 420px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(106,103,206,0.13) 0%, transparent 70%);
+            bottom: -120px;
+            right: -90px;
+            animation: floatBgOrb2 10s ease-in-out infinite;
+            pointer-events: none;
+        }
+
+        .badge-custom {
+            background: linear-gradient(135deg, var(--primary-coral), var(--lavender));
+            color: var(--white);
+            padding: .65rem 1.6rem;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: .92rem;
+            display: inline-block;
+            margin-bottom: 1.2rem;
+            animation: badgePulse 3s ease-in-out infinite;
+            letter-spacing: 0.3px;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, var(--midnight) 20%, var(--primary-coral) 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
+        }
+
+        /* Profile Image with Floating Effect */
+        .about-img {
+            width: 100%;
+            height: 450px;
+            border-radius: 24px;
+            object-fit: cover;
+            object-position: top center;
+            box-shadow: 0 20px 45px rgba(106, 103, 206, 0.22), 0 5px 25px rgba(255, 94, 142, 0.2);
+            border: 6px solid var(--white);
+            transition: all .5s cubic-bezier(0.16, 1, 0.3, 1);
+            animation: floatSlow 6s ease-in-out infinite;
+            margin-top: 0 !important;
+            display: block;
+        }
+        .about-img:hover {
+            transform: scale(1.02) translateY(-4px);
+            box-shadow: 0 26px 55px rgba(106, 103, 206, 0.3), 0 8px 30px rgba(255, 94, 142, 0.32);
+        }
+        .about-content { padding-left: .75rem; }
+
+        /* Unified CTA Buttons */
+        .wa-btn {
+            background: var(--success);
+            color: var(--white);
+            padding: .85rem 1.8rem;
+            border-radius: 50px;
+            font-weight: 700;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: .6rem;
+            cursor: pointer;
+            transition: all .35s cubic-bezier(0.16, 1, 0.3, 1);
+            text-decoration: none;
+            font-size: 1rem;
+            white-space: nowrap;
+            position: relative;
+            overflow: hidden;
+            animation: buttonPulse 3.5s ease-in-out infinite;
+            touch-action: manipulation;
+            min-height: 48px;
+        }
+        .wa-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.35), transparent);
+            animation: shimmerEffect 3s infinite;
+        }
+        .wa-btn:hover {
+            transform: translateY(-3px) scale(1.03);
+            box-shadow: 0 14px 32px rgba(0,201,183,.55), 0 0 22px rgba(0,201,183,0.4);
+            color: var(--white);
+        }
+        .wa-btn:active { transform: translateY(0) scale(.98); }
+
+        .wa-btn-main {
+            font-size: 1.15rem;
+            padding: 0.95rem 2.2rem;
+            border-radius: 50px;
+            box-shadow: 0 8px 25px rgba(0, 201, 183, 0.4);
+            animation: buttonPulse 3s ease-in-out infinite;
+        }
+
+        /* Number Counter with Glow */
+        .counter {
+            font-size: clamp(1.85rem, 5vw, 2.3rem);
+            font-weight: 800;
+            color: var(--primary-coral);
+            display: inline-block;
+            transition: transform 0.2s ease;
+        }
+        .counter.counting {
+            animation: glowCounter 1.5s ease-in-out infinite;
+        }
+
+        /* Stat Cards */
+        .stat-card {
+            background: var(--white);
+            padding: 1.35rem 1rem;
+            border-radius: 18px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            transition: all .4s cubic-bezier(0.16, 1, 0.3, 1);
+            height: 100%;
+            border: 1px solid rgba(106, 103, 206, 0.08);
+            position: relative;
+            overflow: hidden;
+        }
+        .stat-card:hover {
+            transform: translateY(-6px) scale(1.02);
+            box-shadow: var(--shadow-hover);
+            border-color: rgba(255, 94, 142, 0.3);
+        }
+
+        /* Service Cards */
+        .service-card {
+            background: var(--white);
+            border-radius: 20px;
+            padding: 1.75rem 1.5rem;
+            box-shadow: var(--shadow);
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            height: 100%;
+            border: 1px solid rgba(106, 103, 206, 0.1);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-coral), var(--lavender));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 18px 42px rgba(106, 103, 206, 0.22);
+            border-color: rgba(255, 94, 142, 0.35);
+        }
+        .service-card:hover::before { opacity: 1; }
+
+        .service-icon-box {
+            width: 56px;
+            height: 56px;
+            border-radius: 14px;
+            background: linear-gradient(135deg, rgba(255, 94, 142, 0.12), rgba(106, 103, 206, 0.15));
+            color: var(--primary-coral);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.1rem;
+            transition: all 0.35s ease;
+            flex-shrink: 0;
+        }
+        .service-card:hover .service-icon-box {
+            background: linear-gradient(135deg, var(--primary-coral), var(--lavender));
+            color: var(--white);
+            transform: scale(1.08) rotate(5deg);
+            box-shadow: 0 8px 20px rgba(255, 94, 142, 0.35);
+        }
+        .service-badge {
+            font-size: 0.78rem;
+            font-weight: 700;
+            padding: 0.28rem 0.75rem;
+            border-radius: 50px;
+            background: #FFF0F5;
+            color: var(--primary-coral);
+            display: inline-block;
+            margin-bottom: 0.75rem;
+        }
+        .service-btn {
+            background: transparent;
+            color: var(--midnight);
+            border: 1.5px solid #E5E5E5;
+            padding: 0.65rem 1.1rem;
+            border-radius: 50px;
+            font-size: 0.92rem;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.45rem;
+            transition: all 0.3s ease;
+            margin-top: 1.25rem;
+            cursor: pointer;
+            width: 100%;
+            min-height: 46px;
+            touch-action: manipulation;
+        }
+        .service-btn:hover {
+            background: var(--success);
+            border-color: var(--success);
+            color: var(--white);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 201, 183, 0.35);
+        }
+
+        /* Step Cards */
+        .step-card {
+            background: var(--white);
+            border-radius: 18px;
+            padding: 1.5rem 1.3rem;
+            box-shadow: var(--shadow);
+            transition: all .4s cubic-bezier(0.16, 1, 0.3, 1);
+            height: 100%;
+            border: 1px solid rgba(106, 103, 206, 0.08);
+        }
+        .step-card:hover {
+            transform: translateY(-7px) scale(1.02);
+            box-shadow: var(--shadow-hover);
+            border-color: rgba(255, 94, 142, 0.3);
+        }
+        .step-number {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--primary-coral), var(--lavender));
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.25rem;
+            flex-shrink: 0;
+            box-shadow: 0 6px 15px rgba(255, 94, 142, 0.3);
+            transition: transform 0.4s ease;
+        }
+        .step-card:hover .step-number {
+            transform: scale(1.1) rotate(6deg);
+        }
+
+        /* Accordion FAQ */
+        .accordion-item {
+            border: none;
+            border-radius: 14px !important;
+            margin-bottom: .85rem;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            transition: all .3s ease;
+        }
+        .accordion-item:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-hover);
+        }
+        .accordion-button {
+            background: var(--white);
+            font-weight: 600;
+            padding: 1.1rem 1.25rem;
+            font-size: 1.02rem;
+        }
+        .accordion-button:not(.collapsed) {
+            background: linear-gradient(135deg, #FFF5F7, var(--white));
+            color: var(--primary-coral);
+        }
+
+        /* Form Inputs (16px font-size prevents iOS automatic zoom on focus) */
+        .form-control, .form-select {
+            border: 2px solid #E5E5E5;
+            border-radius: 10px;
+            padding: .7rem .95rem;
+            font-size: 16px !important;
+            transition: all .3s ease;
+            min-height: 48px;
+        }
+        .form-control:focus, .form-select:focus {
+            border-color: var(--primary-coral);
+            box-shadow: 0 0 0 4px rgba(255,94,142,.15);
+        }
+
+        /* Dedicated Consultation Section & Form */
+        #consultation-hub {
+            background: linear-gradient(135deg, #FFF6F8 0%, #FFFFFF 50%, #F5F3FF 100%);
+            position: relative;
+            overflow: hidden;
+            border-top: 1px solid rgba(255, 94, 142, 0.12);
+            border-bottom: 1px solid rgba(106, 103, 206, 0.12);
+            padding: 60px 0;
+        }
+        .consultation-form-card {
+            max-width: 680px;
+            width: 100%;
+            margin: 1.8rem auto 0;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .consultation-form-card .card {
+            border-radius: 22px;
+            border: 2px solid rgba(255, 94, 142, 0.25);
+            box-shadow: 0 16px 40px rgba(106, 103, 206, 0.12);
+            transition: all 0.35s ease;
+            background: var(--white);
+        }
+        .consultation-form-card.highlight-pulse .card {
+            animation: consultationPulse 1.2s ease-in-out;
+            border-color: var(--primary-coral);
+            box-shadow: 0 0 0 6px rgba(255, 94, 142, 0.22), 0 22px 55px rgba(106, 103, 206, 0.25);
+        }
+
+        /* Floating WhatsApp Quick Action Button */
+        .float-wa-btn {
+            position: fixed;
+            bottom: 22px;
+            right: 22px;
+            z-index: 9990;
+            background: #25D366;
+            color: var(--white);
+            border-radius: 50px;
+            padding: 0.75rem 1.35rem;
+            font-weight: 700;
+            font-size: 0.95rem;
+            box-shadow: 0 8px 25px rgba(37, 211, 102, 0.45);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+            border: 2px solid var(--white);
+            cursor: pointer;
+            animation: buttonPulse 3s ease-in-out infinite;
+            touch-action: manipulation;
+        }
+        .float-wa-btn:hover {
+            transform: translateY(-4px) scale(1.05);
+            box-shadow: 0 14px 30px rgba(37, 211, 102, 0.65);
+            color: var(--white);
+        }
+
+        /* Privacy Policy Styles */
+        .pp-overlay-new {
+            position: fixed;
+            inset: 0;
+            background: rgba(26,26,46,0.75);
+            backdrop-filter: blur(4px);
+            z-index: 10001;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease;
+        }
+        .pp-overlay-new.show { opacity: 1; visibility: visible; }
+        .pp-modal-new {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.95);
+            width: 92%;
+            max-width: 560px;
+            max-height: 86vh;
+            background: var(--white);
+            border-radius: 18px;
+            box-shadow: 0 20px 40px rgba(255,94,142,0.25);
+            display: flex;
+            flex-direction: column;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            border: 2px solid var(--primary-coral);
+        }
+        .pp-overlay-new.show .pp-modal-new {
+            opacity: 1;
+            visibility: visible;
+            transform: translate(-50%, -50%) scale(1);
+        }
+        .pp-header-new {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.15rem 1.4rem;
+            border-bottom: 1px solid var(--cream);
+            background: linear-gradient(135deg, var(--cream), var(--white));
+            border-radius: 16px 16px 0 0;
+        }
+        .pp-title-new { font-size: 1.2rem; font-weight: 700; color: var(--primary-coral); margin: 0; }
+        .pp-close-new {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--primary-coral);
+            cursor: pointer;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        .pp-close-new:hover { color: var(--lavender); background: var(--cream); }
+        .pp-body-new { padding: 1.35rem; overflow-y: auto; font-size: 0.95rem; line-height: 1.6; color: var(--text-dark); }
+        .pp-body-new h3 { font-size: 1rem; font-weight: 600; margin: 1rem 0 0.5rem; color: var(--primary-coral); }
+        .pp-body-new h3:first-child { margin-top: 0; }
+        .pp-footer-new { margin-top: 1rem; font-size: 0.85rem; font-weight: 600; text-align: center; color: var(--primary-coral); padding-top: 1rem; border-top: 1px solid var(--cream); }
+
+        .privacy-btn-new {
+            background: transparent;
+            border: 2px solid var(--primary-coral);
+            color: var(--primary-coral);
+            padding: 0.5rem 1.2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            margin-top: 1rem;
+        }
+        .privacy-btn-new:hover {
+            background: var(--primary-coral);
+            color: var(--white);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255, 94, 142, 0.3);
+        }
+
+        /* Tablet Breakpoint (max-width: 991px) */
+        @media (max-width: 991px) {
+            .hero-section { padding: 65px 0 45px; }
+            .about-img { height: 380px; max-width: 420px; margin: 0 auto; display: block; }
+            .about-content { padding-left: 0; margin-top: 1.5rem; }
+            .step-card { margin-bottom: 0.5rem; }
+        }
+
+        /* Mobile Breakpoint (max-width: 768px) */
+        @media (max-width: 768px) {
+            section { padding: 42px 0; }
+            .hero-section { padding: 48px 15px 35px; }
+            .badge-custom { font-size: 0.84rem; padding: 0.5rem 1.2rem; max-width: 95%; }
+            .hero-text-compact { font-size: 1.05rem; padding: 0 8px; margin-bottom: 1.25rem; }
+            
+            .about-img {
+                height: 330px;
+                max-width: 310px;
+                border-radius: 20px;
+                margin: 0 auto 1.5rem auto;
+            }
+            .about-content { text-align: center; padding-left: 0; }
+            .about-content .d-flex { justify-content: center; }
+            
+            /* Full-width touch friendly buttons on mobile */
+            .hero-action-buttons {
+                flex-direction: column !important;
+                width: 100% !important;
+            }
+            .hero-action-buttons .wa-btn,
+            .hero-action-buttons .service-btn {
+                width: 100% !important;
+                justify-content: center !important;
+            }
+
+            .wa-btn {
+                font-size: 1rem;
+                padding: 0.85rem 1.25rem;
+                min-height: 48px;
+            }
+            .wa-btn-main {
+                width: 100% !important;
+                font-size: 1.08rem;
+                padding: 0.9rem 1.2rem;
+            }
+
+            .step-number { width: 44px; height: 44px; font-size: 1.15rem; }
+            .step-card { padding: 1.25rem 1rem; }
+            .service-card { padding: 1.4rem 1.15rem; }
+            .stat-card { padding: 1.1rem 0.75rem; }
+
+            .consultation-form-card { margin-top: 1.2rem; }
+            .consultation-form-card .card-body { padding: 1.5rem 1.15rem !important; }
+
+            .float-wa-btn {
+                bottom: 16px;
+                right: 16px;
+                padding: 0.68rem 1.15rem;
+                font-size: 0.88rem;
+            }
+        }
+
+        /* Small Phones (max-width: 480px) */
+        @media (max-width: 480px) {
+            section { padding: 36px 0; }
+            .hero-section { padding: 40px 10px 30px; }
+            .about-img { height: 290px; max-width: 275px; }
+            .counter { font-size: 1.7rem; }
+            .stat-card .small { font-size: 0.75rem; }
+            .badge-custom { font-size: 0.8rem; padding: 0.45rem 1rem; }
+            .service-card h3 { font-size: 1.2rem; }
+            .float-wa-btn span { font-size: 0.85rem; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- PRIVACY POLICY MODAL -->
+<div class="pp-overlay-new" id="ppOverlayNew">
+    <div class="pp-modal-new">
+        <div class="pp-header-new">
+            <div class="pp-title-new">Privacy Policy</div>
+            <button class="pp-close-new" id="ppCloseNew">&times;</button>
+        </div>
+        <div class="pp-body-new">
+            <h3>Information We Collect</h3>
+            <p>We collect information you provide directly to us, such as your name, phone number, and email address when you contact us through WhatsApp or other channels.</p>
+            
+            <h3>How We Use Your Information</h3>
+            <p>Your information is used solely to communicate with you regarding your business requirements, provide project consultations, and share customized quotations for our digital marketing, web design, WhatsApp automation, and CRM services.</p>
+            
+            <h3>Data Protection</h3>
+            <p>We implement appropriate security measures to protect your personal information. Your data is strictly confidential and never sold or shared with third parties.</p>
+            
+            <h3>Your Rights</h3>
+            <p>You have the right to access, correct, or delete your personal information at any time. Contact us directly to exercise these rights.</p>
+            
+            <div class="pp-footer-new">By submitting your inquiry, you agree to this privacy policy. Last updated: October 2026</div>
+        </div>
+    </div>
+</div>
+
+<!-- HERO SECTION -->
+<section class="hero-section text-center">
+    <div class="container position-relative">
+        <div class="badge-custom animate-stagger mb-3" style="--order:1">🚀 Digital Marketing & Tech Automation Services</div>
+        <h1 class="display-3 fw-bold gradient-text mb-2 animate-stagger" style="--order:2">
+            Scaled <span class="counter" data-target="1000" data-suffix="+">0</span> Businesses & Projects
+        </h1>
+        <p class="hero-text-compact text-muted animate-stagger" style="--order:3">Facebook Ads • Website Design • Landing Pages • WhatsApp API & Automation • CRM</p>
+        <div class="d-flex justify-content-center gap-3 flex-wrap hero-action-buttons animate-stagger" style="--order:4">
+            <button class="wa-btn scroll-to-consultation" data-source="Hero Section"><i data-lucide="calendar" width="20"></i>Book Free Consultation</button>
+            <a href="#services" class="service-btn" style="width: auto; padding: 0.8rem 1.6rem; border-color: var(--primary-coral); color: var(--primary-coral);"><i data-lucide="sparkles" width="18"></i>Explore Services</a>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="py-5 bg-white">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-lg-6 animate-stagger" style="--order:1">
+                <img src="images/gourav-kumar.webp" alt="Gourav Kumar" class="about-img" loading="eager">
+            </div>
+            <div class="col-lg-6 animate-stagger about-content" style="--order:2">
+                <div class="badge-custom mb-2">💫 Tech & Growth Specialist</div>
+                <h2 class="display-5 fw-bold mb-3">Hi, I'm Gourav Kumar</h2>
+                <div class="mb-3">
+                    <p class="fs-5 d-flex align-items-center gap-3 mb-2">💻 CS Engineer & Full-Stack Developer</p>
+                    <p class="fs-5 d-flex align-items-center gap-3 mb-2">🎯 Facebook Ads & Conversion Funnel Expert</p>
+                    <p class="fs-5 d-flex align-items-center gap-3">⚡ WhatsApp Automation & CRM Architect</p>
+                </div>
+                <div class="p-3 rounded-2 mb-3" style="background:linear-gradient(135deg,var(--cream),var(--white))">
+                    <h3 class="h5 fw-bold mb-2">🎯 Mera Vision:</h3>
+                    <p class="fs-5 fw-semibold mb-0" style="color:var(--midnight)">"Scaling Brands & Businesses with Automation & High-Converting Tech"</p>
+                </div>
+                <button class="wa-btn mb-4 scroll-to-consultation" data-source="About Section"><i data-lucide="calendar" width="20"></i>Book Free Consultation</button>
+                <div class="row g-2 g-md-3">
+                    <div class="col-6">
+                        <div class="stat-card">
+                            <div class="counter" data-target="5" data-suffix="+">0</div>
+                            <div class="text-muted small">Years Experience</div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="stat-card">
+                            <div class="counter" data-target="1000" data-suffix="+">0</div>
+                            <div class="text-muted small">Happy Clients & Community</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES SECTION -->
+<section class="py-5" style="background:linear-gradient(135deg,var(--cream),var(--white))" id="services">
+    <div class="container">
+        <div class="text-center mb-5">
+            <div class="badge-custom mb-2">⚡ Our Growth & Tech Services</div>
+            <h2 class="display-5 fw-bold mb-3">Everything You Need To Scale Online</h2>
+            <p class="text-muted mx-auto" style="max-width: 650px; font-size: 1.1rem;">
+                Apne business ke leads, sales aur operations ko automate karein industry-standard tech stack aur ROI-focused marketing ke sath.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <!-- 1. Facebook Ads Service -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="service-icon-box">
+                                <i data-lucide="target" width="28"></i>
+                            </div>
+                            <span class="service-badge">🔥 High ROI & Leads</span>
+                        </div>
+                        <h3 class="h4 fw-bold mb-2">Facebook Ads Service</h3>
+                        <p class="text-muted small mb-3">
+                            Targeted Meta ad campaigns, lead generation, eCommerce sales funnels, creative A/B testing aur dynamic retargeting jo aapke ad budget par maximum profit generate karti hai.
+                        </p>
+                    </div>
+                    <button class="service-btn scroll-to-consultation" data-source="Facebook ads service">
+                        <i data-lucide="calendar" width="18"></i> Book Free Consultation
+                    </button>
+                </div>
+            </div>
+
+            <!-- 2. Website Design -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="service-icon-box">
+                                <i data-lucide="globe" width="28"></i>
+                            </div>
+                            <span class="service-badge">💻 Modern & Fast</span>
+                        </div>
+                        <h3 class="h4 fw-bold mb-2">Website Design</h3>
+                        <p class="text-muted small mb-3">
+                            Responsive, premium aur ultra-fast business websites jo trust build karein, desktop aur mobile par flawless dikhein, aur search engines (SEO) par rank karein.
+                        </p>
+                    </div>
+                    <button class="service-btn scroll-to-consultation" data-source="Website design">
+                        <i data-lucide="calendar" width="18"></i> Book Free Consultation
+                    </button>
+                </div>
+            </div>
+
+            <!-- 3. Landing Page -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="service-icon-box">
+                                <i data-lucide="sparkles" width="28"></i>
+                            </div>
+                            <span class="service-badge">🎯 10X Conversion</span>
+                        </div>
+                        <h3 class="h4 fw-bold mb-2">Landing Page</h3>
+                        <p class="text-muted small mb-3">
+                            Direct-response, conversion-engineered landing pages specifically crafted for Google & Facebook ads. Compelling copy, 1-second load speed, aur friction-free lead capture.
+                        </p>
+                    </div>
+                    <button class="service-btn scroll-to-consultation" data-source="Landing page">
+                        <i data-lucide="calendar" width="18"></i> Book Free Consultation
+                    </button>
+                </div>
+            </div>
+
+            <!-- 4. WhatsApp API -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="service-icon-box">
+                                <i data-lucide="phone-call" width="28"></i>
+                            </div>
+                            <span class="service-badge">📱 Official Meta API</span>
+                        </div>
+                        <h3 class="h4 fw-bold mb-2">WhatsApp API</h3>
+                        <p class="text-muted small mb-3">
+                            Official Meta WhatsApp Cloud/Business API setup, Green Tick verification support, broadcast messaging bina number ban ke risk ke, aur multi-agent shared inbox.
+                        </p>
+                    </div>
+                    <button class="service-btn scroll-to-consultation" data-source="WhatsApp API">
+                        <i data-lucide="calendar" width="18"></i> Book Free Consultation
+                    </button>
+                </div>
+            </div>
+
+            <!-- 5. WhatsApp Automation -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="service-icon-box">
+                                <i data-lucide="bot" width="28"></i>
+                            </div>
+                            <span class="service-badge">⚡ 24/7 Autopilot</span>
+                        </div>
+                        <h3 class="h4 fw-bold mb-2">WhatsApp Automation</h3>
+                        <p class="text-muted small mb-3">
+                            Smart auto-replies, instant lead qualification, automated booking confirmation, payment reminders, abandoned cart flows jo 24/7 bina rukhe leads close karte hain.
+                        </p>
+                    </div>
+                    <button class="service-btn scroll-to-consultation" data-source="WhatsApp Automation">
+                        <i data-lucide="calendar" width="18"></i> Book Free Consultation
+                    </button>
+                </div>
+            </div>
+
+            <!-- 6. CRM -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start">
+                            <div class="service-icon-box">
+                                <i data-lucide="database" width="28"></i>
+                            </div>
+                            <span class="service-badge">📊 Pipeline & Retention</span>
+                        </div>
+                        <h3 class="h4 fw-bold mb-2">CRM (Customer Management)</h3>
+                        <p class="text-muted small mb-3">
+                            Complete CRM implementation & integration (HubSpot, Zoho, LeadSquared, Custom) to track leads, pipeline stages, automated email/WhatsApp sequences, aur sales analytics.
+                        </p>
+                    </div>
+                    <button class="service-btn scroll-to-consultation" data-source="CRM">
+                        <i data-lucide="calendar" width="18"></i> Book Free Consultation
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <button class="wa-btn scroll-to-consultation" data-source="Services Overview Button">
+                <i data-lucide="calendar" width="20"></i> Book Free Consultation
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- STEPS SECTION -->
+<section class="py-5 bg-white">
+    <div class="container">
+        <h2 class="text-center display-5 fw-bold mb-4">How We Scale Your Business</h2>
+        <div class="row g-3">
+            <div class="col-md-6 col-lg-3">
+                <div class="step-card">
+                    <div class="d-flex align-items-start gap-3">
+                        <div class="step-number">1</div>
+                        <div>
+                            <h3 class="h5 fw-bold mb-2">Free Consultation</h3>
+                            <p class="text-muted mb-0 small">Direct WhatsApp strategy call with Gourav</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="step-card">
+                    <div class="d-flex align-items-start gap-3">
+                        <div class="step-number">2</div>
+                        <div>
+                            <h3 class="h5 fw-bold mb-2">Custom Roadmap</h3>
+                            <p class="text-muted mb-0 small">Tailored ads, web design & automation plan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="step-card">
+                    <div class="d-flex align-items-start gap-3">
+                        <div class="step-number">3</div>
+                        <div>
+                            <h3 class="h5 fw-bold mb-2">Fast Execution</h3>
+                            <p class="text-muted mb-0 small">Quick 2-5 days implementation & launch</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="step-card">
+                    <div class="d-flex align-items-start gap-3">
+                        <div class="step-number">4</div>
+                        <div>
+                            <h3 class="h5 fw-bold mb-2">Scale & Support</h3>
+                            <p class="text-muted mb-0 small">Continuous lead monitoring & CRM optimization</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <button class="wa-btn scroll-to-consultation" data-source="Steps"><i data-lucide="calendar" width="20"></i>Book Free Consultation</button>
+        </div>
+    </div>
+</section>
+
+<!-- STATS & PROOF SECTION -->
+<section class="py-5" style="background:linear-gradient(135deg,var(--cream),var(--white))">
+    <div class="container">
+        <h2 class="text-center display-5 fw-bold mb-4">Proven Results & Client Track Record</h2>
+        <div class="row g-3 align-items-center">
+            <div class="col-md-6">
+                <div class="d-flex align-items-center gap-3 p-3 rounded-2 mb-3 shadow-sm" style="background:linear-gradient(135deg,var(--cream),var(--white))">
+                    <div class="text-white d-flex align-items-center justify-content-center rounded-circle" style="width:70px;height:70px;background:linear-gradient(135deg,var(--primary-coral),var(--lavender));flex-shrink:0;">⭐</div>
+                    <div>
+                        <h3 class="fw-bold mb-1 fs-2"><span class="counter" data-target="5" data-suffix="+">0</span></h3>
+                        <p class="mb-0 text-muted fs-5">Years in Tech & Ad Scaling</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-3 p-3 rounded-2 shadow-sm" style="background:linear-gradient(135deg,var(--white),var(--cream))">
+                    <div class="text-white d-flex align-items-center justify-content-center rounded-circle" style="width:70px;height:70px;background:linear-gradient(135deg,var(--lavender),var(--midnight));flex-shrink:0;">💼</div>
+                    <div>
+                        <h3 class="fw-bold mb-1 fs-2"><span class="counter" data-target="1000" data-suffix="+">0</span></h3>
+                        <p class="mb-0 text-muted fs-5">Campaigns & Automations Deployed</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="p-4 rounded-3 shadow-lg text-white" style="background:linear-gradient(135deg,var(--midnight),var(--primary-coral))">
+                    <h3 class="fw-bold fs-3 mb-2">🔥 Scale Your Revenue Today</h3>
+                    <div class="row text-white">
+                        <div class="col-6">
+                            <h4 class="fw-bold fs-2 mb-0"><span class="counter" data-target="300" data-suffix="+">0</span></h4>
+                            <p class="small opacity-75 mb-0">Satisfied Businesses</p>
+                        </div>
+                        <div class="col-6">
+                            <h4 class="fw-bold fs-2 mb-0"><span class="counter" data-target="50" data-suffix="+">0</span></h4>
+                            <p class="small opacity-75 mb-0">Industry Niches Scaled</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="py-5 bg-white">
+    <div class="container">
+        <h2 class="text-center display-5 fw-bold mb-4">Frequently Asked Questions</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">Which service is right for my business?</button></h2>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">Agar aapko fresh qualified leads chahiye toh targeted Facebook Ads + Landing Page best combo hai. Agar aapke paas leads aa rahi hain par follow-up miss ho rahe hain, toh WhatsApp API, Automation aur CRM aapke conversions ko 3X kar denge.</div></div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">How quickly will my Website or Landing Page be ready?</button></h2>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">Direct-response Landing Pages 2 se 4 working days mein complete hokar live ho jaati hain. Full multi-page business websites 5 se 7 days mein ready hoti hain, complete mobile-friendly design aur speed optimization ke sath.</div></div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">What is the advantage of Official WhatsApp API?</button></h2>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">Normal WhatsApp par bulk message bhejne par number ban hone ka risk hota hai. Official Meta WhatsApp Cloud API se aap hazaro customers ko official broadcasts bhej sakte hain, Green Tick verification pa sakte hain, aur multi-agent dashboard use kar sakte hain.</div></div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq4">How does WhatsApp Automation increase sales?</button></h2>
+                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">WhatsApp Automation 24/7 bina ruke naye leads ko instant welcome karta hai, unka requirement poochta hai, appointment schedule karta hai, aur payment/follow-up reminders automatically bhejta hai.</div></div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq5">Do you handle Facebook Ads end-to-end?</button></h2>
+                        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">Haan bilkul! Meta ad account setup, pixel tracking, target audience research, high-converting ad copy, creatives aur weekly optimization sab kuch include hota hai.</div></div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq6">Can CRM integrate with Facebook Ads and WhatsApp?</button></h2>
+                        <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">Yes! Jaise hi Facebook Ad ya Landing Page par koi lead form bharega, wo automatic aapke CRM mein save hoga aur usi second customer ko automated WhatsApp message chala jayega.</div></div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq7">What is included in Website Design & Landing Pages?</button></h2>
+                        <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">Full mobile-responsive UI/UX design, ultra-fast loading speed, direct-response copywriting, Meta Pixel/Google analytics tracking, contact forms, aur 1-click WhatsApp floating chat integration.</div></div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq8">How do I get a price quotation and get started?</button></h2>
+                        <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">Aap direct WhatsApp par message karein ya neeche form submit karein. Hum aapke business model aur requirements ko samajh kar ek tailored proposal aur transparent pricing quotation share karenge.</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- DEDICATED BOOK FREE CONSULTATION SECTION -->
+<section id="consultation-hub">
+    <div class="container">
+        <div class="text-center mb-4">
+            <div class="badge-custom mb-2">📅 1-on-1 Strategy & Growth Plan</div>
+            <h2 class="display-5 fw-bold mb-3">Book Free Consultation</h2>
+            <p class="text-muted mx-auto" style="max-width: 680px; font-size: 1.12rem;">
+                Apne business growth, high-converting ads, modern website, WhatsApp automation ya CRM requirement ke liye direct Gourav Kumar ke sath free consultation schedule karein.
+            </p>
+            <div class="mt-3">
+                <button id="consultationTriggerBtn" class="wa-btn wa-btn-main shadow-lg">
+                    <i data-lucide="calendar" width="22"></i> Book Free Consultation
+                </button>
+            </div>
+        </div>
+
+        <!-- INLINE CONSULTATION FORM (OPENS RIGHT HERE AT THE BUTTON) -->
+        <div id="consultationFormCard" class="consultation-form-card mx-auto">
+            <div class="card border-0 shadow-lg">
+                <div class="card-body p-4 p-md-5">
+                    <div class="text-center mb-4 pb-2 border-bottom">
+                        <h3 class="h4 fw-bold mb-1" style="color:var(--midnight)">🚀 Book Free Consultation</h3>
+                        <p class="text-muted small mb-0">Fill your details below & connect directly with Gourav on WhatsApp</p>
+                    </div>
+                    <form id="consultationForm" novalidate>
+                        <input type="hidden" id="sourceInfo" name="sourceInfo" value="Consultation Section">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold small d-flex align-items-center gap-2">
+                                    <i data-lucide="user" style="width:16px;color:var(--primary-coral)"></i> Full Name *
+                                </label>
+                                <input id="inp_name" type="text" class="form-control" required placeholder="Enter your full name">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold small d-flex align-items-center gap-2">
+                                    <i data-lucide="phone" style="width:16px;color:var(--primary-coral)"></i> WhatsApp Phone Number *
+                                </label>
+                                <input id="inp_phone" type="tel" class="form-control" required placeholder="10-digit WhatsApp number" maxlength="10">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold small d-flex align-items-center gap-2">
+                                    <i data-lucide="layers" style="width:16px;color:var(--primary-coral)"></i> Required Service *
+                                </label>
+                                <select id="inp_service" class="form-select" required>
+                                    <option value="">Select Service</option>
+                                    <option value="Facebook ads service">Facebook ads service</option>
+                                    <option value="Website design">Website design</option>
+                                    <option value="Landing page">Landing page</option>
+                                    <option value="WhatsApp API">WhatsApp API</option>
+                                    <option value="WhatsApp Automation">WhatsApp Automation</option>
+                                    <option value="CRM">CRM</option>
+                                    <option value="Complete Growth Package">All Services / Complete Package</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold small d-flex align-items-center gap-2">
+                                    <i data-lucide="briefcase" style="width:16px;color:var(--primary-coral)"></i> Business / Niche
+                                </label>
+                                <input id="inp_business" type="text" class="form-control" placeholder="e.g. Real Estate, eCommerce, Agency, Coaching, etc.">
+                            </div>
+                            <div class="col-12 mt-4 text-center">
+                                <button type="submit" class="wa-btn w-100" style="padding:0.95rem;font-size:1.05rem;justify-content:center">
+                                    <i data-lucide="calendar" width="22"></i> Book Free Consultation
+                                </button>
+                                <div class="mt-2 text-muted small d-flex align-items-center justify-content-center gap-2">
+                                    <i data-lucide="shield-check" style="width:15px;color:var(--success)"></i> 100% Free Consultation • No Obligation • Instant WhatsApp Connect
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FINAL CTA SECTION -->
+<section class="py-5 text-white" style="background:linear-gradient(135deg,var(--midnight),var(--primary-coral))">
+    <div class="container text-center">
+        <h2 class="display-4 fw-bold mb-3">Ready to Scale Your Business?</h2>
+        <p class="fs-5 mb-4">Grow faster with Facebook Ads, Modern Websites, WhatsApp Automation & CRM</p>
+
+        <div class="card bg-white bg-opacity-35 border-0 p-4 p-md-5 mb-4">
+            <h3 class="h4 fw-bold mb-3">📲 How to Get Started?</h3>
+            <p class="fs-5 mb-3">Bas mujhe WhatsApp par direct message karein:</p>
+            <div class="row g-2 mb-3">
+                <div class="col-md-4"><div class="bg-white bg-opacity-30 p-3 rounded"><strong>📝 Name:</strong> Full Name</div></div>
+                <div class="col-md-4"><div class="bg-white bg-opacity-30 p-3 rounded"><strong>💼 Business:</strong> Business Name / Niche</div></div>
+                <div class="col-md-4"><div class="bg-white bg-opacity-30 p-3 rounded"><strong>⚡ Service:</strong> Which Service Needed</div></div>
+            </div>
+            <p class="fs-6 fw-semibold mb-3">📌 Save My Number: 7015206709</p>
+            <button class="wa-btn scroll-to-consultation" data-source="Final CTA" style="background:white;color:var(--success)"><i data-lucide="calendar" width="22"></i>Book Free Consultation</button>
+            
+            <!-- Privacy Policy Button -->
+            <div>
+                <button class="privacy-btn-new" id="privacyBtn">
+                    <i data-lucide="shield-check" width="16"></i> Privacy Policy
+                </button>
+            </div>
+        </div>
+
+        <div class="card bg-white bg-opacity-25 border-0 p-3 mb-3">
+            <h4 class="h5 fw-bold mb-2">⏳ Within 24 hours:</h4>
+            <div class="row text-white">
+                <div class="col-md-6"><div class="d-flex align-items-center gap-2 justify-content-center">📋 Complete Proposal & Quotation</div></div>
+                <div class="col-md-6"><div class="d-flex align-items-center gap-2 justify-content-center">🗺 Actionable Growth Roadmap</div></div>
+            </div>
+        </div>
+
+        <p class="fs-6 mb-2">🌟 High-ROI Facebook Ads • 💻 Modern Web Design • ⚡ WhatsApp & CRM Automations</p>
+        <p class="fs-4 fw-bold mb-1">❤ Dedicated to Your Business Growth, Gourav Kumar</p>
+        <p class="fs-6 opacity-90 mb-0">🚀 Growth Marketing & Tech Automation Partner</p>
+    </div>
+</section>
+
+<!-- FLOATING WHATSAPP BUTTON (FOR MOBILE & DESKTOP) -->
+<a href="#consultation-hub" class="float-wa-btn scroll-to-consultation" data-source="Floating Button" title="Book Free Consultation">
+    <i data-lucide="calendar" width="20"></i>
+    <span>Book Free Consultation</span>
+</a>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    /* ---- INITIAL ICONS ---- */
+    lucide.createIcons();
+
+    /* ---- ADVANCED SMOOTH & SLOW COUNTER TICKER ---- */
+    function animateCounter(counterEl) {
+        const target = parseInt(counterEl.getAttribute('data-target'), 10) || 0;
+        const prefix = counterEl.getAttribute('data-prefix') || '';
+        const suffix = counterEl.getAttribute('data-suffix') || '';
+        
+        counterEl.classList.add('counting');
+        counterEl.textContent = prefix + '0' + suffix;
+        
+        // Paced deliberately slow so user can clearly watch the number rise from 0 to target
+        let duration;
+        if (target >= 1000) {
+            duration = 4500; // 4.5 seconds for 1,000+
+        } else if (target >= 200) {
+            duration = 3800; // 3.8 seconds for 300+
+        } else if (target >= 40) {
+            duration = 3000; // 3.0 seconds for 50+
+        } else {
+            duration = 2400; // 2.4 seconds for 5+
+        }
+
+        let startTime = null;
+
+        function updateStep(timestamp) {
+            if (!startTime) startTime = timestamp;
+            const elapsed = timestamp - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            
+            // Quadratic ease-out: steady, visible, comfortable progression
+            const easeOutProgress = progress * (2 - progress);
+            const currentVal = Math.floor(easeOutProgress * target);
+            
+            counterEl.textContent = prefix + currentVal.toLocaleString('en-US') + suffix;
+            
+            if (progress < 1) {
+                requestAnimationFrame(updateStep);
+            } else {
+                counterEl.textContent = prefix + target.toLocaleString('en-US') + suffix;
+                counterEl.classList.remove('counting');
+            }
+        }
+        
+        requestAnimationFrame(updateStep);
+    }
+
+    const counters = document.querySelectorAll('.counter');
+    const counterObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting && !entry.target.classList.contains('counted')) {
+                entry.target.classList.add('counted');
+                animateCounter(entry.target);
+            }
+        });
+    }, { threshold: 0.05 });
+
+    counters.forEach(counter => {
+        counter.textContent = (counter.getAttribute('data-prefix') || '') + '0' + (counter.getAttribute('data-suffix') || '');
+        counterObserver.observe(counter);
+    });
+
+    // Check immediately on load for hero counter
+    window.addEventListener('load', () => {
+        counters.forEach(counter => {
+            const rect = counter.getBoundingClientRect();
+            if (rect.top < window.innerHeight && rect.bottom > 0 && !counter.classList.contains('counted')) {
+                counter.classList.add('counted');
+                animateCounter(counter);
+            }
+        });
+    });
+
+    /* ---- COOL SCROLL REVEAL ANIMATIONS ---- */
+    const revealTargets = document.querySelectorAll('.stat-card, .step-card, .service-card, .accordion-item, .about-content');
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('revealed');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    revealTargets.forEach(el => {
+        el.classList.add('reveal-item');
+        revealObserver.observe(el);
+    });
+
+    /* ---- UNIFIED CONSULTATION ROUTING LOGIC ---- */
+    const WA_NUMBER_INT = "917015206709";
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxnvdUoZFXU3Fa99gG5mzGpctB6688ySxJSzHmnHOdoILHQOx1DWhdIEvdGOmS5HvpZnw/exec";
+    
+    const consultationHub = document.getElementById('consultation-hub');
+    const consultationFormCard = document.getElementById('consultationFormCard');
+    const consultationForm = document.getElementById('consultationForm');
+    const sourceInfo = document.getElementById('sourceInfo');
+    const inpName = document.getElementById('inp_name');
+    const inpPhone = document.getElementById('inp_phone');
+    const inpService = document.getElementById('inp_service');
+    const inpBusiness = document.getElementById('inp_business');
+
+    function scrollToConsultation(source = 'Website') {
+        if (sourceInfo) sourceInfo.value = source;
+
+        // Auto-select corresponding service if clicked from a service button
+        if (inpService && source) {
+            const sLower = source.toLowerCase();
+            if (sLower.includes('facebook')) inpService.value = 'Facebook ads service';
+            else if (sLower.includes('website')) inpService.value = 'Website design';
+            else if (sLower.includes('landing')) inpService.value = 'Landing page';
+            else if (sLower.includes('api')) inpService.value = 'WhatsApp API';
+            else if (sLower.includes('automation')) inpService.value = 'WhatsApp Automation';
+            else if (sLower.includes('crm')) inpService.value = 'CRM';
+        }
+
+        // Smooth scroll to the dedicated Book Free Consultation section
+        if (consultationHub) {
+            consultationHub.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        // Trigger attention pulse animation on form card
+        if (consultationFormCard) {
+            consultationFormCard.classList.remove('highlight-pulse');
+            void consultationFormCard.offsetWidth; // Reflow
+            consultationFormCard.classList.add('highlight-pulse');
+        }
+
+        // Focus first field after scroll
+        setTimeout(() => {
+            if (inpName) inpName.focus();
+        }, 550);
+    }
+
+    // Attach click handler to ALL CTA buttons
+    document.addEventListener('click', (e) => {
+        const trigger = e.target.closest('.scroll-to-consultation, .open-any');
+        if (trigger && !trigger.closest('#consultationForm')) {
+            e.preventDefault();
+            const source = trigger.getAttribute('data-source') || 'Website Button';
+            scrollToConsultation(source);
+        }
+    });
+
+    // Also trigger on main consultation button in the section
+    const consultationTriggerBtn = document.getElementById('consultationTriggerBtn');
+    if (consultationTriggerBtn) {
+        consultationTriggerBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            scrollToConsultation('Main Section Button');
+        });
+    }
+
+    /* ---- CONSULTATION FORM SUBMIT ---- */
+    if (consultationForm) {
+        consultationForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = inpName ? inpName.value.trim() : '';
+            const phone = inpPhone ? inpPhone.value.replace(/\D/g, '') : '';
+            const service = inpService ? inpService.value : '';
+            const business = (inpBusiness && inpBusiness.value.trim()) ? inpBusiness.value.trim() : 'Not specified';
+            const source = (sourceInfo && sourceInfo.value) ? sourceInfo.value : 'Consultation Section';
+
+            if (!name || phone.length < 6 || !service) {
+                alert('Please fill your name, WhatsApp phone number, and select a service.');
+                if (!name && inpName) inpName.focus();
+                else if ((!phone || phone.length < 6) && inpPhone) inpPhone.focus();
+                else if (!service && inpService) inpService.focus();
+                return;
+            }
+
+            // Post to Google Sheet webhook
+            const formData = new FormData();
+            formData.append('name', name);
+            formData.append('phone', phone);
+            formData.append('service', service);
+            formData.append('business', business);
+            formData.append('source', source);
+            formData.append('timestamp', new Date().toISOString());
+
+            fetch(SCRIPT_URL, {
+                method: 'POST',
+                body: formData,
+                mode: 'no-cors'
+            }).catch(err => console.error('Sheet error:', err));
+
+            // Meta Pixel Events
+            if (typeof fbq !== 'undefined') {
+                fbq('track', 'Contact');
+                fbq('track', 'Lead');
+            }
+
+            // WhatsApp Redirect with Pre-filled Message
+            const message = encodeURIComponent(
+                `Hello Gourav Sir,\n\nI want to Book a Free Consultation for your services. Here are my details:\n\n⚡ Service: ${service}\n📝 Name: ${name}\n📱 WhatsApp Phone: ${phone}\n💼 Business / Niche: ${business}\n📌 Source: ${source}\n\nPlease share consultation availability & proposal. Thank you!`
+            );
+            window.open(`https://wa.me/${WA_NUMBER_INT}?text=${message}`, '_blank');
+        });
+    }
+
+    /* ---- PRIVACY POLICY LOGIC ---- */
+    const ppOverlayNew = document.getElementById('ppOverlayNew');
+    const ppCloseNew = document.getElementById('ppCloseNew');
+    const privacyBtn = document.getElementById('privacyBtn');
+    
+    function openPPNew() {
+        ppOverlayNew.classList.add('show');
+        document.body.style.overflow = 'hidden';
+    }
+    
+    function closePPNew() {
+        ppOverlayNew.classList.remove('show');
+        document.body.style.overflow = '';
+    }
+
+    if (privacyBtn) privacyBtn.addEventListener('click', openPPNew);
+    if (ppCloseNew) ppCloseNew.addEventListener('click', closePPNew);
+    if (ppOverlayNew) {
+        ppOverlayNew.addEventListener('click', (e) => {
+            if (e.target === ppOverlayNew) closePPNew();
+        });
+    }
+    
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && ppOverlayNew && ppOverlayNew.classList.contains('show')) {
+            closePPNew();
+        }
+    });
+</script>
+</body>
+</html>
